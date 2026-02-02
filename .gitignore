@@ -1,0 +1,16 @@
+# Klipper logs and backups
+*.log
+*.bkp
+printer-*.cfg
+.moonraker.conf.bkp
+
+# Sensitive data (if you use these)
+moonraker.secrets
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Exclude the gcode files folder if it's symlinked here
+gcode_files/
